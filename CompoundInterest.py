@@ -12,8 +12,8 @@ while True:
     while i <= duration:
 
         income = principal * interest_rate  # calculates for income (e.g '7% of 500')
-        total = round(income + principal)  # adds the income to the principal (e.g add 7% of 500 to 500)
-        principal = total  # new principal amount
+        total = round(income + principal)   # adds the income to the principal (e.g add 7% of 500 to 500)
+        principal = total                   # new principal amount
         i_list = list(str(i))
 
         if (len(i_list) >= 2) and (i_list[-1] == '1') and (i_list[-2] == '1'):
