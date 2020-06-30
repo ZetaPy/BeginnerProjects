@@ -19,10 +19,10 @@ while True:
         if (len(i_list) >= 2) and (i_list[-1] == '1') and (i_list[-2] == '1'):
             print('You will have $' + str(total) + ' in the ' + str(i) + 'th year.')
 
-        elif (len(i_list) >= 2) and (i_list[-1] == '2') and (i_list[-2] == '1'):
+        elif (len(i_list) >= 2) and (i_list[-2] == '1') and (i_list[-1] == '2'):
             print('You will have $' + str(total) + ' in the ' + str(i) + 'th year.')
 
-        elif (len(i_list) >= 2) and (i_list[-1] == '3') and (i_list[-2] == '1'):
+        elif (len(i_list) >= 2) and (i_list[-2] == '1') and (i_list[-1] == '3'):
             print('You will have $' + str(total) + ' in the ' + str(i) + 'th year.')
 
         elif i_list[-1] == '1':
